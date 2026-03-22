@@ -95,29 +95,32 @@ def train_model(model, train_loader, num_epochs=3):
         optimizer.step()
         running_loss += loss.item()
 
-        print('Name:KRITHIGA U')
-        print('Register Number: 212223240076')
+        print('Name: SHARAN S')
+        print('Register Number: 212224040309')
         print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_loader):.4f}')
 ```
 
 ## OUTPUT
 ### Training Loss per Epoch
 
-![Screenshot 2025-04-05 093446](https://github.com/user-attachments/assets/0f0d1984-f63d-4e42-a5ce-d9d3e503c078)
+<img width="326" height="206" alt="image" src="https://github.com/user-attachments/assets/5f3fd8e9-269c-4584-b193-b0f4224154d8" />
+
 
 
 ### Confusion Matrix
 
-![Screenshot 2025-04-05 093532](https://github.com/user-attachments/assets/ba7a8201-b8c9-4e1e-bf0e-b5b5b82c356b)
+<img width="984" height="706" alt="image" src="https://github.com/user-attachments/assets/79d58d0a-7231-4ac0-ab89-3d0f2e623b0e" />
+
 
 ### Classification Report
 
-![Screenshot 2025-04-05 093543](https://github.com/user-attachments/assets/154d4f62-513e-4a75-acf8-a63991c43a10)
+<img width="634" height="448" alt="image" src="https://github.com/user-attachments/assets/09d19410-1777-47ab-9b0d-b2afc4043365" />
+
 
 
 ### New Sample Data Prediction
 
-![Screenshot 2025-04-05 093605](https://github.com/user-attachments/assets/78f838e6-94ef-48fe-b45b-63c64b73dd77)
+<img width="613" height="621" alt="image" src="https://github.com/user-attachments/assets/e65a87c0-6820-495d-a863-4436ef3c7af6" />
 
 
 ## RESULT
